@@ -3,7 +3,7 @@ import { Table, Button } from 'antd';
 import './TransactionReportPage.css';
 
 const TransactionReportPage = () => {
-  // Dummy data (Replace with your actual policy data)
+
   const data = [
     {
       product_name: 'Product A',
@@ -29,7 +29,7 @@ const TransactionReportPage = () => {
       date_of_expiry: '2023-02-01',
       policy_number: 'POL-002',
     },
-    // Add more dummy data...
+
   ];
 
   const columns = [
@@ -85,7 +85,7 @@ const TransactionReportPage = () => {
     },
   ];
 
-  // Function to download policy data as a JSON file
+
   const downloadPolicyData = () => {
     // Convert data to JSON string
     const jsonData = JSON.stringify(data, null, 2);
