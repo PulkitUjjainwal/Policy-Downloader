@@ -1,0 +1,19 @@
+/* src/TransactionReportPage.css */
+
+.transaction-report-page {
+    padding: 20px;
+  }
+  
+  .transaction-report-page-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .transaction-report-table {
+    margin-bottom: 20px;
+  }
+  
+  .ant-btn-primary {
+    margin-top: 10px;
+  }
+  
